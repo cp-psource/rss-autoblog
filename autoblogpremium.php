@@ -28,6 +28,15 @@ Domain Path: /autoblogincludes/languages/
 // | MA 02110-1301 USA                                                    |
 // +----------------------------------------------------------------------+
 
+require 'psource/psource-plugin-update/psource-plugin-updater.php';
+use Psource\PluginUpdateChecker\v5\PucFactory;
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=rss-autoblog', 
+	__FILE__, 
+	'rss-autoblog' 
+);
+
+
 // prevent reloading the plugin, if it has been already loaded
 if ( class_exists( 'Autoblog_Plugin', false ) ) {
 	return;
@@ -201,9 +210,3 @@ spl_autoload_register( 'autoblog_autoloader' );
 // launch the plugin
 autoblog_launch();
 
-require 'autoblogincludes/extra/plugin-update-checker/plugin-update-checker.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=rss-autoblog', 
-	__FILE__, 
-	'rss-autoblog' 
-);
