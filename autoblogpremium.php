@@ -11,7 +11,7 @@ Domain Path: /autoblogincludes/languages/
 */
 
 // +----------------------------------------------------------------------+
-// | Copyright WMS N@W (https://n3rds.work)                                |
+// | Copyright 2017-2023 WMS N@W (https://n3rds.work)                                |
 // +----------------------------------------------------------------------+
 // | This program is free software; you can redistribute it and/or modify |
 // | it under the terms of the GNU General Public License, version 2, as  |

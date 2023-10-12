@@ -65,8 +65,8 @@ function autoblogDrawChart() {
 }
 
 (function($) {
-	$(document).ready(function() {
-		$('.autoblog-log-feed > .autoblog-log-row').click(function() {
+	$(function() {
+		$('.autoblog-log-feed > .autoblog-log-row').on('click', function() {
 			var parent = $(this).parent(), rows, height;
 
 			parent.find('.autoblog-log-feed-collapse').toggle();
@@ -87,6 +87,6 @@ function autoblogDrawChart() {
 
 		$('.autoblog-log-feed-records').slimScroll({height: '400px'}).show();
 
-		$(window).resize(autoblogDrawChart);
+		$(window).on('resize', autoblogDrawChart);
 	});
 })(jQuery);
