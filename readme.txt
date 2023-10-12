@@ -49,8 +49,8 @@ Denke daran: Mit großer Macht geht große Verantwortung einher. Das Teilen von 
 
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
 
-[Projektseite](https://n3rds.work/piestingtal-source-project/ps-pretty-plugins/)
-[GitHub](https://github.com/piestingtal-source/ps-pretty-plugins)
+[Projektseite](https://n3rds.work/piestingtal-source-project/rss-autoblog/)
+[GitHub](https://github.com/cp-psource/rss-autoblog)
 
 == Mehr PSOURCE ==
 
