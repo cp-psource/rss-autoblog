@@ -38,14 +38,17 @@ class A_ImageCacheAddon extends Autoblog_Addon_Image {
 	public function import_post_images( $post_id, $details, $item ) {
 		$post       = get_post( $post_id );
 		$new_images = $this->_import_post_images( $post->post_content, $details, $post_id );
-		if ( count( $new_images ) ) {
+		
+		if ( is_array( $new_images ) && count( $new_images ) > 0 ) {
 			$post->post_content = str_replace( array_keys( $new_images ), array_values( $new_images ), $post->post_content );
 			wp_update_post( $post->to_array() );
 		} else {
-			//something happen, we will need to use the raw content, please note that simplepie will
-			//sanitize content, this is the most case cause google news image don't display
+			// something happens, we will need to use the raw content
+			// please note that simplepie will sanitize content, which is the most common cause
+			// for Google News images not displaying
 			$new_images = $this->_import_post_images( $this->get_simplepie_item_raw( $item ), $details, $post_id );
-			if ( count( $new_images ) ) {
+			
+			if ( is_array( $new_images ) && count( $new_images ) > 0 ) {
 				$replaced_content   = $this->_replace_content_with_new_images( $new_images, $post->post_content );
 				$post->post_content = $replaced_content;
 				wp_update_post( $post->to_array() );
