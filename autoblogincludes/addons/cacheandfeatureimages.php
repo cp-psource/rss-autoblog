@@ -1,7 +1,7 @@
 <?php
 
 /*
-Addon Name: Empfohlener Bildimport
+Addon Name: Empfohlenes Bild-Import
 Description: Importiert das vorgestellte Bild des Feed-Elements in die Medienbibliothek, hängt es an den importierten Beitrag an und markiert es als ausgewähltes Bild.
 Author: WMS N@W
 Author URI: https://n3rds.work
@@ -85,7 +85,7 @@ class A_FeatureImageCacheAddon extends Autoblog_Addon_Image {
 		);
 
 		// render block header
-		$this->_render_block_header( __( 'Empfohlener Bildimport', 'autoblogtext' ) );
+		$this->_render_block_header( __( 'Empfohlenes Bild-Import', 'autoblogtext' ) );
 
 		// render block elements
 		$this->_render_block_element( __( 'Wähle eine Möglichkeit zum Importieren eines ausgewählten Bildes', 'autoblogtext' ), $radio );

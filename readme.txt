@@ -73,4 +73,6 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
-= 1.6.5 = DerN3rd =
+= 4.1.6 =
+
+Großes Release Update für PSOURCE

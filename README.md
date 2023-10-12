@@ -36,233 +36,236 @@ Erweitere die Funktion, indem Du eines der 17 enthaltenen Add-ons aktivierst. Ve
 
 Denke daran: Mit großer Macht geht große Verantwortung einher. Das Teilen von Inhalten sollte immer mit Genehmigung des Autors erfolgen.
 
-## Usage
+## Verwendung
 
-### To Get Started:
+### So startest Du:
 
-Once installed and activated, you will see a new menu item in your admin: Autoblog. 
+Nach der Installation und Aktivierung siehst Du in Deinem Admin einen neuen Menüpunkt: Autoblog.
 
-![Autoblog Menu](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-menu.png) Let's start this overview by getting a feel for the reporting features of this plugin.
+![Autoblog-Menü](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-menu.png) Beginnen wir diesen Überblick damit, ein Gefühl für die Berichtsfunktionen dieses Plugins zu bekommen.
 
-### Reporting Features
+### Berichtsfunktionen
 
-Go ahead and click on the Dashboard link in the Autoblog menu now. If this is the first time you install Autoblog, there won't be any data to display on that page yet. Don't worry, we'll get that fixed up in a jiffy! 
+Klicke jetzt im Autoblog-Menü auf den Link „Dashboard“. Wenn Du Autoblog zum ersten Mal installierst, werden auf dieser Seite noch keine Daten angezeigt. Keine Sorge, wir regeln das im Handumdrehen!
 
-![Autoblog Dashboard New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-dashboard-new.png) However, if you have just updated your Autoblog install to the latest version (4.0), you should see that page already populated with data from your current feeds. 
+![Autoblog Dashboard Neu](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-dashboard-new.png) Wenn Du jedoch gerade Deine Autoblog-Installation auf den neuesten Stand gebracht hast Version (4.0) solltest Du sehen, dass diese Seite bereits mit Daten aus Deinen aktuellen Feeds gefüllt ist.
 
-![Autoblog Dashboard Updated](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4040-dashboard-updated1.png) The graph at the top gives you a quick overview of Autoblog activity over the course of the last 7 days. Hover your mouse pointer over any day to pop up a few details about that day's imports.
+![Autoblog-Dashboard aktualisiert](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4040-dashboard-updated1.png) Die Grafik oben gibt Dir einen schnellen Überblick über die Autoblog-Aktivität im Laufe der letzten 7 Tage. Bewege den Mauszeiger über einen beliebigen Tag, um einige Details zu den Importen dieses Tages anzuzeigen.
 
-*   How many feeds were processed
-*   How many items were imported
-*   How many errors were logged
+* Wie viele Feeds wurden verarbeitet
+* Wie viele Artikel wurden importiert?
+* Wie viele Fehler wurden protokolliert
 
-Want all the juicy details about a particular day's import activity? No problem. Scroll down in the list of feeds beneath the graph until you find the date you want. 
+Möchtest Du alle wichtigen Details zur Importaktivität eines bestimmten Tages erfahren? Kein Problem. Scrolle in der Liste der Feeds unterhalb der Grafik nach unten, bis Du das gewünschte Datum findest.
+![Autoblog Feed](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-feed.png) In der Titelleiste jedes Feeds zeigen praktische Symbole die Aktivität des jeweiligen Tages an.
 
-![Autoblog Feed](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-feed.png) In the title bar of each feed, handy icons show you the day's activity for that particular one.
+* Wie viele neue Artikel wurden im Laufe des Tages importiert?
+* Wie oft dieses Futter im Laufe des Tages verarbeitet wurde
+* Wie viele Fehler wurden für diesen Feed im Laufe des Tages protokolliert
 
-*   How many new items were imported during the day
-*   How many times that feed was processed during the day
-*   How many errors were logged for that feed during the day
+![Autoblog-Feed-Titel](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-feed-titles.png) Klicke nun auf den Titel des Feeds, den Du anzeigen möchtest.
 
-![Autoblog Feed Titles](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-feed-titles.png) Now click on the title of the feed you want to view. 
+![Autoblog-Feed-Info](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-feed-info.png) Der erste Eintrag zeigt Dir, wie viele neue Elemente importiert wurden pro Tag. Jeder nachfolgende Eintrag enthält alle Details zu jedem importierten oder aktualisierten Element. Ja, Du hast richtig gelesen. Du kannst Deine Autoblog-Feeds so einstellen, dass sie Feed-Elemente erneut importieren und sie auf Deiner Webseite auf dem neuesten Stand halten. Wie cool ist das? Der Titel jedes Eintrags verweist auf die Originalquelle des Feed-Elements, während der Link _(Beitrag anzeigen)_ am Ende zum Beitrag auf Deiner Webseite führt. Tolles Zeug, sagst du? Sind wir uns einig. :) :)
 
-![Autoblog Feed Info](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-feed-info.png) The first entry will tell you how many new items were imported that day. Each subsequent entry gives you all the details about each imported or updated item. Yes, you read that right, you can set your Autoblog feeds to re-import feed items and keep them updated on your site. How cool is that? The title of each entry links to the original source of the feed item, while the _(view post)_ link at the end goes to the post on your site. Awesome stuff, you say? We agree. :)
+### Feeds verwalten
 
-### Managing Feeds
+Schauen wir uns nun an, was unter dem Menüpunkt „Alle Feeds“ passiert. Klicke jetzt darauf. Auf dieser Seite werden alle Deine Feeds in einem vertrauten Format angezeigt.
 
-Let's now take a look at what goes on under the All Feeds menu item. Click that now. This page displays all your feeds in a familiar format. 
+![Autoblog All Feeds](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-all-feeds-main.png) Bewege Deinen Mauszeiger über einen beliebigen Feed, um auf die jeweiligen Aktionen zuzugreifen.
 
-![Autoblog All Feeds](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-all-feeds-main.png) Hover your mouse pointer over any feed to reveal the actions you can take for each one. 
+![Alle Feeds automatisch bloggen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4040-all-feeds.png)
 
-![Autoblog All Feeds](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4040-all-feeds.png)
+* Der Link „Bearbeiten“ öffnet den Feed-Editor, sodass Du bei Bedarf Anpassungen vornehmen kannst.
+* Klicke auf den Link „Klonen“, um einen duplizierten Feed zu erstellen, den Du dann anpassen kannst.
+* Klicke auf _Verarbeiten_, um den Importplan manuell zu überschreiben und den Feed sofort zu verarbeiten.
+* Der _Validate_-Link leitet automatisch zu [w3.org](http://validator.w3.org/feed/ „W3C Feed Validation Service“) mit der korrekten angehängten URI weiter, sodass Du sicher sein kannst, dass Dein Feed in Ordnung ist.
+* Und natürlich löscht _Löschen_ den Feed dauerhaft.
 
-*   The _Edit_ link will open the feed editor so you can adjust things if you need to.
-*   Click the _Clone_ link to create a duplicate feed that you can then adjust.
-*   Click _Process_ to manually override the import schedule and process the feed immediately.
-*   The _Validate_ link will automatically redirect to [w3.org](http://validator.w3.org/feed/ "W3C Feed Validation Service") with the correct URI appended so you be sure your feed is OK.
-*   And of course, _Delete_ will delete the feed permanently.
+### Einen Feed erstellen
 
-### Creating a Feed
+Bevor wir auf alle Addons eingehen, die man für Autoblog aktivieren kann, werfen wir zunächst einen Blick auf die Grundeinstellungen zum Erstellen oder Bearbeiten eines Feeds. Klicke oben auf der Seite „Alle Feeds“ auf die Schaltfläche „Neu hinzufügen“.
 
-Before we get into all the addons you can activate for Autoblog, let's first take a look at the basic settings for creating or editing a feed. Click the Add New button at the top of the All Feeds page. 
+![Autoblog Neu hinzufügen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-add-new.png) Es gibt viele Optionen auf dieser Seite, also los geht's abschnittsweise darüber.
 
-![Autoblog Add New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-add-new.png) There are a lot of options on this page, so let's go over them in sections.
+##### Füttern
 
-##### Feed
+Im ersten Abschnitt benennst und beschreibst Du Deinen Feed.
 
-The first section is where you name & describe your feed. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-1.png)
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-1.png)
+* Im Feld „Dein Titel“ solltest Du einen einprägsamen Namen für Deinen Feed eingeben.
+* Die _Feed-URL_ ist die URL für Deinen Feed. Normalerweise kannst Du diese URL abrufen, indem Du auf der Webseite, von der Du den Feed erhalten möchtest, auf das RSS-Symbol klickst. Einige Websites verwenden möglicherweise einen Dienst wie Feedburner, dessen URL so aussehen würde: [http://feeds.feedburner.com/ICanHasCheezburger](http://feeds.feedburner.com/ICanHasCheezburger) ... das ist einer meiner Favoriten . :) :)
+* Wähle im Dropdown-Menü „Beiträge hinzufügen zu“ die Seite in Deinem Netzwerk aus, auf der der Feed die Feed-Elemente veröffentlichen soll. Beachte dass bei der Installation einer einzelnen Seite lediglich der Name Deiner Seite angezeigt wird.
+* _Beitragstyp für neue Beiträge_ zeigt alle auf der gerade ausgewählten Website verfügbaren Beitragstypen an. Alle von diesem Feed importierten Feed-Elemente werden Ihrer ausgewählten Website als Beitragstyp hinzugefügt, den Du hier auswählst.
+* Wähle den _Standardstatus für neue Beiträge_ aus, die von Deinem Feed importiert wurden.
+* Schließlich kannst Du zum _Festlegen des Datums für neue Beiträge_ entweder das Datum auswählen, an dem der Beitrag auf Deine Webseite importiert wurde, oder das ursprüngliche Datum des Beitrags auf der Quellseite.
 
-*   The _Your Title_ field is where you should enter a memorable name for your feed.
-*   The _Feed URL_ is, well, the URL for your feed. You can usually get that URL by clicking the RSS icon on the site you want the feed from. Some sites might use a service like Feedburner where the URL would look like this: [http://feeds.feedburner.com/ICanHasCheezburger](http://feeds.feedburner.com/ICanHasCheezburger) ...that's one of my favorites. :)
-*   In the _Add posts to_ dropdown, select the site in your network where you want the feed to post the feed items. Note that if you are running a single site install, this will simply display the name of your site.
-*   _Post type for new posts_ will display all the post types available on the site you just selected. All feed items imported by this feed will be added to your selected site as the post type you select here.
-*   Select the _Default status for new posts_ imported by your feed.
-*   Finally, to _Set the date for new posts_, you can choose either the date the post was imported to your site, or the original date of the post on the source site.
+##### Details zum Autor
 
-##### Author Details
+Als nächstes folgt der Abschnitt mit den Autorendetails.
 
-Next up, the author details section. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-2.png)
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-2.png)
+* _Autor für neue Beiträge festlegen_ ermöglicht es Dir, einen vorhandenen Benutzer auf Deiner Seite auszuwählen oder zu versuchen, den ursprünglichen Autor der Quellsite zu verwenden.
+* Wenn Du oben den Original-Feed-Autor ausgewählt hast und _Wenn der Autor im Feed lokal nicht existiert_, verwende einen vorhandenen Autor auf Deiner Webseite.
 
-*   _Set author for new posts_ enables you to select an existing user on your site, or attempt to use the original author from the source site.
-*   If you have selected original feed author above, and _If author in feed does not exist locally use_ an existing author on your site.
+##### Taxonomien
 
-##### Taxonomies
+Im Abschnitt „Taxonomien“ kannst SDu genau festlegen, wie importierte Beiträge auf Deiner Webseite kategorisiert werden sollen.
 
-The Taxonomies section enables you to fine-tune how imported posts should be categorized on your site. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-3.png)
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-3.png)
+* Wähle „Feed-Kategorien als beliebige Taxonomie behandeln“, die mit dem oben ausgewählten Beitragstyp verknüpft ist.
+* Aktiviere das Kontrollkästchen „Alle hinzufügen, die nicht vorhanden sind“, um automatisch alle Taxonomiebegriffe zu erstellen, die benötigt werden und noch nicht auf Deiner Webseite vorhanden sind. Aber Vorsicht. Wenn Du dies aktivierst, können möglicherweise Hunderte zusätzlicher Kategorien auf Deiner Webseite erstellt werden, wenn Du einen Feed von einer öffentlichen Webseite importierst, auf der die Leute ihre Beiträge beliebig mit Tags versehen können.
+* Unter _Beiträge dieser Kategorie zuweisen_ kannst Du auch auswählen, dass vorhandene Kategorien auf Deiner Webseite allen importierten Artikeln zugewiesen werden sollen.
+* Gib im Feld „Diese Tags zu den Beiträgen hinzufügen“ eine durch Kommas getrennte Liste zusätzlicher Tags ein, die Du für alle importierten Elemente hinzufügen möchtest.
 
-*   Select to _Treat feed categories as_ any taxonomy associated with the post type you chose above.
-*   Check the _Add any that do not exist_ checkbox to automatically create any taxonomy terms that are needed and that don't already exist on your site. Watch out though. Checking this could potentially create hundreds of additional categories on your site if you are importing a feed from a public site where folks can tag their posts willy-nilly.
-*   At _Assign posts to this category_, you can also select to assign existing categories on your site to all imported items.
-*   Enter a comma-separated list of additional tags you want on all imported items in the _Add these tags to the posts_ field.
+##### Post-Filterung
 
-##### Post Filtering
+Der Abschnitt „Nachfilterung“ ist ziemlich leistungsstark. Es ermöglicht Dir, genau zu identifizieren, welche Feed-Elemente importiert werden sollen, indem Du den Inhalt angibst, der in Feed-Elementen vorhanden sein soll oder nicht. Auf diese Weise kannst Du Inhalte herausfiltern, die auf Deiner Webseite nichts zu suchen haben.
 
-The Post Filtering section it quite powerful. It enables you to identify exactly which feed items to import by specifying the content that should or should not be present in feed items. This way, you can filter out stuff that has no business being on your site. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-4.png)
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-4.png)
+* Unter „Alle diese Wörter“ kannst Du alle Wörter angeben, die in einem Feed-Eintrag vorhanden sein müssen, damit er importiert wird.
+* Du kannst auch angeben, dass importierte Elemente _Jedes dieser Wörter_ enthalten müssen. Wenn ein Wort, das Du hier eingibst, in einem Feed-Element gefunden wird, wird es importiert.
+* Wenn Du möchtest, kannst Du den genauen Ausdruck angeben, der im Titel oder Inhalt von Feed-Elementen enthalten sein muss.
+* Du kannst auch Feed-Elemente herausfiltern, die _Keines dieser Wörter_ enthalten sollten. Feedelemente mit hier eingegebenen Wörtern werden nicht importiert. Ideal zum Herausfiltern von Schimpfwörtern auf PG-13-Seiten. :) :)
+* Schließlich kannst Du angeben, dass importierte Elemente _Jedes dieser Tags_ enthalten müssen. Es werden nur Feed-Elemente importiert, die auf der Quellseite mit den von Dir hier eingegebenen Begriffen kategorisiert oder getaggt wurden.
 
-*   At _All of these words_, you can specify all words that must be present in a feed item for it to be imported.
-*   You can also specify that imported items must contain _Any of these words_. If any word you enter here is found in a feed item, it will be imported.
-*   If you wish, you can specify _The exact phrase_ that must be present in the title or content of feed items.
-*   You can also filter out feed items that should contain _None of these words_. Feed items with any words entered here will not be imported. Great for filtering out profanity on PG-13 sites. :)
-*   Finally, you can specify that imported items must contain _Any of these tags_. Only feed items that have been categorized or tagged on the source site with terms you enter here will imported.
+##### Beitragsauszüge
 
-##### Post Excerpts
+In diesem Abschnitt kannst Du angeben, wie viel Inhalt in jedes Feedelement importiert werden soll.
 
-This section enables you to specify how much content should be imported in each feed item. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-5.png)
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-5.png)
+* Wähle aus, ob in importierten Artikeln der vollständige Beitrag oder ein Auszug verwendet werden soll. Beachte dass RSS Autoblog nicht den gesamten Inhalt von der Quellseite abrufen kann, wenn der Feed ohnehin nur Auszüge enthält.
+* Wenn Du den Import von Auszügen ausgewählt hast, gib unter _Für Auszüge verwenden_ die Anzahl der Wörter, Sätze oder Absätze ein, die Deine importierten Auszüge enthalten sollen.
+* Im Feld „Link zur Originalquelle“ kannst Du den Text angeben, der nach jedem importierten Element angezeigt wird und mit dem Originalelement auf der Quellseite verknüpft wird.
+* Stelle sicher, dass es sich bei diesem Link um einen Nofollow-Link handelt, wenn Du Bedenken hinsichtlich einer möglichen negativen Auswirkung auf den PageRank Deiner Webseite hast. Weitere Informationen findest Du in [diesem Artikel bei Google](https://developers.google.com/search/docs/appearance/ranking-systems-guide?hl=de&sjid=968404540865763204-EU).
+* Aktiviere _Diesen Link in einem neuen Fenster öffnen_, um, nun ja, weisst Du. :) :)
 
-*   Select to _Use full post or an excerpt_ in imported items. Note that if the feed only contains excerpts anyway, Autoblog cannot fetch the full content from the source site.
-*   If you have selected to import excerpts, then at _For excerpts use_, enter the number of Words, Sentences or Paragraphs your imported excerpts should contain.
-*   The _Link to original source_ field is where you can specify the text that will appear after each imported item, and that will link to the original item on the source site.
-*   Check Ensure this link is a nofollow one if you are concerned about a possible negative impact on your site's PageRank. See [this article at Google](https://support.google.com/webmasters/answer/96569?hl=en) for more.
-*   Check _Open this link in a new window_ to, well, you know. :)
+##### Futterverarbeitung
 
-##### Feed Processing
+Bei der Feed-Verarbeitung legst Du fest, wie viel des Feeds wie oft und wie importiert werden soll.
 
-Feed processing is where you schedule how much of the feed should be imported, how often, and how to import it. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-6.png)
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-6.png)
+* Wähle zunächst aus, dass Du die gewünschte Anzahl an Beiträgen (Feed-Elementen) importieren möchtest. Du kannst festlegen, dass bei jeder Verarbeitung des Feeds bis zu 100 Elemente importiert werden.
+* Wähle dann die Häufigkeit aus, mit der dieser Feed verarbeitet werden soll. Du kannst den Feed auch anhalten, indem Du die Einstellung auf „Nie“ einstellst.
+* _Beginnt von_ und _Ende am_ Hier kannst Du den Datumsbereich für die gewünschten importierten Elemente angeben. Wenn Du nicht möchtest, dass es stoppt, lasse die Felder „Ende am“ leer.
+* Setze _SSL-Überprüfung erzwingen_ auf „Nein“, wenn Du SSL-Fehler erhältst oder wenn Dein Feed ein selbstsigniertes SSL-Zertifikat verwendet.
+* Setze _Duplikate überschreiben_ auf „Ja“, wenn Du zuvor importierte Elemente mit eventuell verfügbaren neuen Inhalten aktualisieren möchtest. Setze dies auf „Nein“, um alle Duplikate im Feed zu überspringen.
 
-*   First, select to _Import the most recent_ number of posts (feed items) that you want. You can set it to import up to 100 items each time the feed is processed.
-*   Then select the frequency at which to _Process this feed_. You can also pause the feed by setting this to "Never".
-*   _Starting from_ and _Ending on_ is where you can specify the date range for the imported items you want. If you don't want it to stop, leave the _Ending on_ fields blank.
-*   Set _Force SSL verification_ to "No" if you are getting SSL errors, or if your feed uses a self-signed SSL certificate.
-*   Set _Override duplicates_ to "Yes" if you want to update previously imported items with any new content that may be available. Set this to "No" to skip any duplicates in the feed.
+Wenn Du beim Verfolgen Deinen ersten Feed eingerichtet hast, ist es jetzt an der Zeit, unten rechts auf dem Bildschirm auf die Schaltfläche „Feed erstellen“ zu klicken. Wenn Du den soeben eingerichteten Feed nicht behalten möchtest, klicke einfach auf _Abbrechen_.
 
-If you've been setting up your first feed while following along, now's the time to click the _Create Feed_ button at the bottom right of your screen. If you do not want to keep the feed you just set up, simply click _Cancel_. 
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-7.png) Sobald Du Deinen Feed erstellt hast, wirst Du weitergeleitet. Gehe zur Seite „Alle Feeds“, wo oben auf dem Bildschirm eine nette kleine Bestätigung angezeigt wird.
 
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-7.png) Once you've created your feed, you'll be redirected to the All Feeds page where a nice little confirmation will appear at the top of the screen. 
-
-![Autoblog Create New](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-8.png) You may not see details appear immediately on the _Autoblog Dashboard_ screen as importing the feed items and processing can take a bit of time. Patience, Grasshopper. :) Now it's time to have a play with all the cool addons that you can activate for Autoblog.
+![Autoblog Neu erstellen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-create-8.png) Möglicherweise werden die Details nicht sofort auf dem Bildschirm „Autoblog-Dashboard“ angezeigt Das Importieren der Feed-Elemente und die Verarbeitung können etwas Zeit in Anspruch nehmen. Geduld, Unterdeckler. :) Jetzt ist es an der Zeit, mit all den coolen Add-ons zu spielen, die Du für Autoblog aktivieren kannst.
 
 ### Addons
 
-![Autoblog Addons](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-main.png) As you can see, there are quite a few addons! Let's take at look at each one, shall we?
+![Autoblog-Add-ons](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-main.png) Wie Du siehst, gibt es eine ganze Reihe von Add-ons! Schauen wir uns jeden einzelnen an, ja?
 
-##### Allow Force Feed
+##### Erlaube Feed zu erzwingen
 
-This addon adds a new checkbox at the bottom of the feed settings page that allows you to override feed validation, and force a feed to process even if it has an incorrect MIME type. This can help with compatibility for unusual feeds. Use with caution. 
+Dieses Add-on fügt unten auf der Seite mit den Feed-Einstellungen ein neues Kontrollkästchen hinzu, mit dem Du die Feed-Validierung außer Kraft setzen und die Verarbeitung eines Feeds erzwingen kannst, selbst wenn dieser einen falschen MIME-Typ hat. Dies kann bei der Kompatibilität ungewöhnlicher Feeds hilfreich sein. Mit Vorsicht verwenden.
 
 ![Autoblog Addons Force Feed](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-force-feed.png)
 
-##### Append text to post
+##### Text an Beiträge anhängen
 
-This one enables you to append some custom content to the end of each imported feed item. You can also use any shortcodes you need to here. 
+Damit kannst Du benutzerdefinierte Inhalte an das Ende jedes importierten Feed-Elements anhängen. Du kannst hier auch alle benötigten Shortcodes verwenden.
 
-![Autoblog Addons Append Text](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-append-text.png) A variety of placeholders are available to dynamically insert the text too:
+![Autoblog Addons Text anhängen](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-append-text.png) Es stehen verschiedene Platzhalter zum dynamischen Einfügen des Texts zur Verfügung Text auch:
 
-*   %ORIGINALPOSTURL% adds a link to the original post on the source site.
-*   %FEEDURL% displays the URL of the feed used to fetch the post.
-*   %FEEDTITLE% displays the title of the feed.
-*   %POSTIMPORTEDTIME% displays the time at which the post was imported.
-*   %FEEDID% will display the ID of the feed.
-*   %ORIGINALPOSTGUID% the ID provided for the post through the feed.
-*   %ORIGINALAUTHORNAME% will display the name of the author of the post from the source site.
-*   %ORIGINALAUTHOREMAIL% will display the original author's email if available in the feed.
-*   %ORIGINALAUTHORLINK% will display a link to the original author's profile on the source site if available.
+* %ORIGINALPOSTURL% fügt einen Link zum ursprünglichen Beitrag auf der Quellseite hinzu.
+* %FEEDURL% zeigt die URL des Feeds an, der zum Abrufen des Beitrags verwendet wurde.
+* %FEEDTITLE% zeigt den Titel des Feeds an.
+* %POSTIMPORTEDTIME% zeigt den Zeitpunkt an, zu dem der Beitrag importiert wurde.
+* %FEEDID% zeigt die ID des Feeds an.
+* %ORIGINALPOSTGUID% die für den Beitrag über den Feed bereitgestellte ID.
+* %ORIGINALAUTHORNAME% zeigt den Namen des Autors des Beitrags von der Quellseite an.
+* %ORIGINALAUTHOREMAIL% zeigt die E-Mail-Adresse des ursprünglichen Autors an, sofern diese im Feed verfügbar ist.
+* %ORIGINALAUTHORLINK% zeigt einen Link zum Profil des Originalautors auf der Quellseite an, sofern verfügbar.
 
-##### Canonical link in header
+##### Kanonischer Link im Header
 
-This addon doesn't add any option to the feed settings page. What it does do is link the post title to the original source. This can be very handy if you are sourcing content from a variety of sites (like a news aggregation site) and using excerpts. Visitors to your site who wish to read the full article will be redirected to the source site.
+Dieses Add-on fügt der Seite mit den Feed-Einstellungen keine Option hinzu. Dabei wird der Titel des Beitrags mit der Originalquelle verknüpft. Dies kann sehr praktisch sein, wenn Du Inhalte von verschiedenen Webseiten beziehst (z.B. einer Webseite zur Nachrichtenaggregation) und Auszüge verwendest. Besucher Deiner Webseite, die den vollständigen Artikel lesen möchten, werden zur Quellseite weitergeleitet.
 
-##### Check Feed Entries
+##### Überprüfe Feed-Einträge
 
-This one checks to make sure the blog id entries match in each feed entry.
+Dabei wird überprüft, ob die Blog-ID-Einträge in jedem Feed-Eintrag übereinstimmen.
 
-##### Clean Face
+##### Sauberes Aussehen
 
-This addon cleans non-validating feeds like Facebook, it fixes Facebook spoofed relative links. No further options are provided, it simply does its task once activated.
+Dieses Add-on bereinigt nicht validierende Feeds wie Facebook und behebt von Facebook gefälschte relative Links. Es werden keine weiteren Optionen bereitgestellt, es erledigt einfach seine Aufgabe, sobald es aktiviert ist.
 
-##### Disable Sanitization
+##### Deaktiviere die Feedbereinigung
 
-Allows you to override feed content sanitization and force a feed to import bare content even if it has usually blocked tags. This can help with compatibility for unusual feeds. Use with caution. 
+Ermöglicht Ihnen, die Bereinigung von Feed-Inhalten außer Kraft zu setzen und zu erzwingen, dass ein Feed reine Inhalte importiert, selbst wenn er normalerweise blockierte Tags aufweist. Dies kann bei der Kompatibilität ungewöhnlicher Feeds hilfreich sein. Mit Vorsicht verwenden.
 
-![Autoblog Addons Disable Sanitization](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-disable-sanitization.png)
+![Autoblog-Addons deaktivieren Sanitization](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-disable-sanitization.png)
 
-##### Featured Image Import
+##### Empfohlenes Bild-Import
 
-This addon will import the featured image along with the feed item. It also adds the image to your media library, attaches it to the imported post, and marks it as featured image. 
+Dieses Add-on importiert das vorgestellte Bild zusammen mit dem Feed-Element. Außerdem wird das Bild zu Ihrer Medienbibliothek hinzugefügt, an den importierten Beitrag angehängt und als hervorgehobenes Bild markiert.
 
-![Autoblog Addons Featured Image](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4040-addons-featured-image.png) Once activated, you can select which type of image in the feed item to use on your site as the featured image.
+![Autoblog Addons Featured Image](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4040-addons-featured-image.png) Nach der Aktivierung können Sie den Bildtyp auswählen im Feed-Element, um es auf Ihrer Website als vorgestelltes Bild zu verwenden.
 
-*   Don't import featured image (turns the feature off for this feed without deactivating the addon).
-*   Use media:thumbnail tag of a feed item.
-*   Find the first image within content of a feed item.
-*   Find the last image within content of a feed item.
-*   You can also upload a default image to use if no image is found or imported.
+* Featured Image nicht importieren (schaltet die Funktion für diesen Feed aus, ohne das Add-on zu deaktivieren).
+* Verwenden Sie das media:thumbnail-Tag eines Feed-Elements.
+* Finden Sie das erste Bild im Inhalt eines Feed-Elements.
+* Finden Sie das letzte Bild im Inhalt eines Feed-Elements.
+* Sie können auch ein Standardbild hochladen, um es zu verwenden, wenn kein Bild gefunden oder importiert wird.
 
-##### Image Import
+##### Bildimport
 
-This addon imports any/all images in a feed item to your media library and attaches them to the imported post. It doesn't provide any additional options, simply activate and it takes care of the image imports!
+Dieses Add-on importiert alle Bilder in einem Feed-Element in Ihre Medienbibliothek und hängt sie an den importierten Beitrag an. Es bietet keine zusätzlichen Optionen, einfach aktivieren und schon übernimmt es den Bildimport!
 
-##### Open links in popup
+##### Links im Popup öffnen
 
-A very powerful and handy addon, this one lets you display imported posts within a popup dialog. Once activated, you'll see an _Open Link in Popup_ section in the feed settings. 
+Mit diesem sehr leistungsstarken und praktischen Add-on kannst Du importierte Beiträge in einem Popup-Dialogfeld anzeigen. Nach der Aktivierung wird in den Feed-Einstellungen der Abschnitt „Link im Popup öffnen“ angezeigt.
 
-![Autoblog - Open link in popup add-on](https://premium.wpmudev.org/wp-content/uploads/2009/08/Autoblog-Open-link-in-popup-add-on.png) Tick the _Do you want to turn off this feature for this feed_ option to exclude this particular feed from using this feature. This lets you easily disable to feature on a per-feed basis. Enter any domains that you want to exclude, one per line, within the _Domain you want to exclude_ text area. Tick the _Always refresh content_ option to automatically re-index the link anytime you want to update the content. Any time the feed is processed, the content will be refreshed with any changes in the original articles.
+![Autoblog – Link im Popup-Add-on öffnen](https://premium.wpmudev.org/wp-content/uploads/2009/08/Autoblog-Open-link-in-popup-add-on.png) Auswählen der Option _Möchtest Du diese Funktion für diesen Feed deaktivieren?, um diesen bestimmten Feed von der Verwendung dieser Funktion auszuschließen. Auf diese Weise kannst Du die Funktion ganz einfach pro Feed deaktivieren. Gib alle Domains, die Du ausschließen möchtest, jeweils eine pro Zeile in den Textbereich "Domain, die Du ausschließen möchtest" ein. Aktiviere die Option "Inhalt immer aktualisieren", um den Link automatisch neu zu indizieren, wann immer Du den Inhalt aktualisieren möchtest. Bei jeder Verarbeitung des Feeds wird der Inhalt mit allen Änderungen in den Originalartikeln aktualisiert.
 
-##### Post formats addon
+##### Beitragsformat-Erweiterung
 
-This addon lets you specify a post format on a per-feed basis. When activated, you'll see a new _Post format for new posts_ section when creating or editing a feed, where you'll be able to specify the post format of your choice. 
+Mit diesem Add-on kannst Du ein Postformat pro Feed festlegen. Wenn diese Option aktiviert ist, wird beim Erstellen oder Bearbeiten eines Feeds ein neuer Abschnitt „Beitragsformat für neue Beiträge“ angezeigt, in dem Du das Beitragsformat Deiner Wahl angeben kannst.
 
-![Autoblog - Post Format add-on](https://premium.wpmudev.org/wp-content/uploads/2009/08/Autoblog-Post-Format-add-on.png)
+![Autoblog – Post-Format-Add-on](https://premium.wpmudev.org/wp-content/uploads/2009/08/Autoblog-Post-Format-add-on.png)
 
-##### Replace Author Information
+##### Ersetze Autoreninformationen
 
-This one has no settings either. It simply replaces the author details shown on a post with those of the original author from the source site.
+Auch dieser hat keine Einstellungen. Es ersetzt einfach die in einem Beitrag angezeigten Autorendetails durch die des ursprünglichen Autors auf der Quellseite.
 
-##### Strip Images
+##### Bilder entfernen
 
-This addon removes all image tags from the imported post content and allows you to replace those tags with your own custom text. 
+Dieses Add-on entfernt alle Bild-Tags aus dem importierten Beitragsinhalt und ermöglicht Dir, diese Tags durch Deinen eigenen benutzerdefinierten Text zu ersetzen.
 
 ![Autoblog Addons Strip Images](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-strip-images.png)
 
-##### Twitter Add-on
+##### Twitter-Add-on
 
-This addon adds a Twitter post type and processes tweets to have correct links. 
+Dieses Add-on fügt einen Twitter-Beitragstyp hinzu und verarbeitet Tweets, um korrekte Links zu erhalten.
 
-![Autoblog Addons Twitter](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-twitter.png)
+![Autoblog-Addons Twitter](https://premium.wpmudev.org/wp-content/uploads/2009/08/autoblog-4030-addons-twitter.png)
 
-##### Use External Permalinks
+##### Verwende externe Permalinks
 
-This add-on lets you link to the original post using the post's permalink. When reader's click the post's link, they'll be taken to the original article.
+Mit diesem Add-on kannst Du mithilfe des Permalinks des Beitrags auf den ursprünglichen Beitrag verlinken. Wenn der Leser auf den Link des Beitrags klickt, wird er zum Originalartikel weitergeleitet.
 
-##### WPML Languages
+##### WPML-Sprachen
 
-If you use [WPML](http://wpml.org/ "WPML"), you'll need a way to ensure the plugin is notified of post additions done through Autoblog. This addon takes care of that, ensuring WPML is notified so that posts can automatically get translated. Simply activate and it'll take care of the rest.
+Wenn Du [WPML](http://wpml.org/ „WPML“) verwendest, benötigst Du eine Möglichkeit, um sicherzustellen, dass das Plugin über über RSS Autoblog vorgenommene Beitragsergänzungen benachrichtigt wird. Dieses Add-on sorgt dafür, dass WPML benachrichtigt wird, sodass Beiträge automatisch übersetzt werden können. Einfach aktivieren und der Rest wird erledigt.
 
-##### YouTube Feed Import
+##### YouTube-Feed-Import
 
-A very handy add-on for video content, this one lets you pull a YouTube feed, adding the video to the beginning of a post. There are no additional options for this add-on but once activated, you can link to a YouTube feed url and it will take care of parsing the feed and pulling video content as new posts.
+Ein sehr praktisches Add-on für Videoinhalte. Mit diesem Add-on kannst Du einen YouTube-Feed abrufen und das Video am Anfang eines Beitrags hinzufügen. Es gibt keine zusätzlichen Optionen für dieses Add-on, aber sobald es aktiviert ist, kannst Du einen Link zu einer YouTube-Feed-URL erstellen und es kümmert sich um die Analyse des Feeds und das Abrufen von Videoinhalten als neue Beiträge.
 
-### Known Issues
+### Bekannte Probleme
 
-The plugin attempts to create a database table. If it isn't automatically created then you need to run the following SQL on your database: `CREATE TABLE wp_autoblog ( feed_id bigint(20) NOT NULL auto_increment, site_id bigint(20) default NULL, blog_id bigint(20) default NULL, feed_meta text, active int(11) default NULL, nextcheck bigint(20) default NULL, lastupdated bigint(20) default NULL, PRIMARY KEY ( feed_id), KEY site_id (site_id), KEY blog_id (blog_id), KEY nextcheck (nextcheck) )` If you are using the Multi-DB system, then you need to create the table in your global database and ensure you have added the "autoblog" table as a global table in your configuration file.
+Das Plugin versucht, eine Datenbanktabelle zu erstellen. Wenn es nicht automatisch erstellt wird, musst Du die folgende SQL in Deiner Datenbank ausführen: 
+
+„CREATE TABLE wp_autoblog ( feed_id bigint(20) NOT NULL auto_increment, site_id bigint(20) default NULL, blog_id bigint(20) default NULL, feed_meta text, active int(11) Standard NULL, nextcheck bigint(20) Standard NULL, lastupdated bigint(20) Standard NULL, PRIMARY KEY (feed_id), KEY site_id (site_id), KEY blog_id (blog_id), KEY nextcheck (nextcheck) ) ` 
+
+Wenn Du das Multi-DB-System verwendest, musst Du die Tabelle in Deiner globalen Datenbank erstellen und sicherstellen, dass Du die „Autoblog“-Tabelle als globale Tabelle in Deiner Konfigurationsdatei hinzugefügt hast.

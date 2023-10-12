@@ -64,7 +64,7 @@ msgid "Lösche Bild"
 msgstr ""
 
 #: autoblogincludes/addons/cacheandfeatureimages.php:88
-msgid "Empfohlener Bildimport"
+msgid "Empfohlenes Bild-Import"
 msgstr ""
 
 #: autoblogincludes/addons/cacheandfeatureimages.php:91

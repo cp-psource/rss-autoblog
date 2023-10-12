@@ -75,7 +75,7 @@ msgstr "Delete image"
 
 #: autoblogincludes/addons/cacheandfeatureimages.php:88
 #, fuzzy
-msgid "Empfohlener Bildimport"
+msgid "Empfohlenes Bild-Import"
 msgstr "Recommended image import"
 
 #: autoblogincludes/addons/cacheandfeatureimages.php:91

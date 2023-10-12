@@ -75,7 +75,7 @@ msgstr "Cancellare l'immagine"
 
 #: autoblogincludes/addons/cacheandfeatureimages.php:88
 #, fuzzy
-msgid "Empfohlener Bildimport"
+msgid "Empfohlenes Bild-Import"
 msgstr "Importazione di immagini consigliata"
 
 #: autoblogincludes/addons/cacheandfeatureimages.php:91
