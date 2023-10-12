@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: RSS AutoBlog
-Version: 4.1.5
+Version: 4.1.6
 Plugin URI: https://n3rds.work/piestingtal-source-project/rss-autoblog/
 Description: Dieses Plugin veröffentlicht automatisch Inhalte aus RSS-Feeds in verschiedenen Blogs auf Deiner WordPress Seite oder in Deiner Multisite...
 Author: WMS N@W
