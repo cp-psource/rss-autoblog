@@ -439,7 +439,7 @@ function close_tooltip () {
 $(function () {
 
 // Populate and place bound tips
-$.each($.parseJSON('<?php echo $selectors; ?>'), function (tip_id, selector) {
+$.each(JSON.parse('<?php echo $selectors; ?>'), function (tip_id, selector) {
 	var $tip = $("#" + tip_id);
 	if (!$tip.length) return true;
 
@@ -457,18 +457,18 @@ $(".psource-help").each(function () {
 
 // Handle help requests
 $(".psource-help-trigger")
-	.click(function (e) {
+	.on("click", function (e) {
 <?php if ($this->_use_notice) { ?>
 		show_help_block($(this));
 <?php } ?>
 		return false;
 	})
-	.mouseover(function (e) {
+	.on("mouseenter", function (e) {
 		open_tooltip($(this));
-
 	})
-	.mouseout(close_tooltip)
-;
+	.on("mouseleave", function () {
+		close_tooltip();
+	});
 
 
 });

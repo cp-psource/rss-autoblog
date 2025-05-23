@@ -3,8 +3,8 @@
 /*
 Addon Name: Bildimport
 Description: Importiert alle Bilder in einem Beitrag in die Medienbibliothek und hängt sie an den importierten Beitrag an.
-Author: WMS N@W
-Author URI: https://n3rds.work
+Author: DerNerd
+Author URI: https://nerdservice.eimen.net/
 */
 
 class A_ImageCacheAddon extends Autoblog_Addon_Image {
@@ -36,19 +36,22 @@ class A_ImageCacheAddon extends Autoblog_Addon_Image {
 	 * @param array $details The feed settings.
 	 */
 	public function import_post_images( $post_id, $details, $item ) {
-		$post       = get_post( $post_id );
+		$post = get_post( $post_id );
+		if ( ! $post ) {
+			return; // Abbrechen, wenn der Beitrag nicht existiert
+		}
 		$new_images = $this->_import_post_images( $post->post_content, $details, $post_id );
-		
-		if ( is_array( $new_images ) && count( $new_images ) > 0 ) {
+		if ( count( $new_images ) ) {
+
 			$post->post_content = str_replace( array_keys( $new_images ), array_values( $new_images ), $post->post_content );
 			wp_update_post( $post->to_array() );
 		} else {
-			// something happens, we will need to use the raw content
-			// please note that simplepie will sanitize content, which is the most common cause
-			// for Google News images not displaying
+			//something happen, we will need to use the raw content, please note that simplepie will
+			//sanitize content, this is the most case cause google news image don't display
+
 			$new_images = $this->_import_post_images( $this->get_simplepie_item_raw( $item ), $details, $post_id );
-			
-			if ( is_array( $new_images ) && count( $new_images ) > 0 ) {
+			if ( count( $new_images ) ) {
+
 				$replaced_content   = $this->_replace_content_with_new_images( $new_images, $post->post_content );
 				$post->post_content = $replaced_content;
 				wp_update_post( $post->to_array() );
@@ -60,7 +63,7 @@ class A_ImageCacheAddon extends Autoblog_Addon_Image {
 		$images = $this->_get_remote_images_from_post_content( $content );
 
 		if ( empty( $images ) ) {
-			return;
+			return array(); // Immer ein Array zurückgeben!
 		}
 
 		// Set a big timelimt for processing as we are pulling in potentially big files.

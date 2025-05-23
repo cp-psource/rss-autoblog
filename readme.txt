@@ -3,7 +3,7 @@ Contributors: DerN3rd (NerdService Eimen)
 Tags: rss, import, autoblog
 Requires at least: 4.9
 Tested up to: 6.8.1
-Stable tag: 4.1.6
+Stable tag: 4.1.7
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -71,6 +71,12 @@ Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktion
 Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
 == ChangeLog ==
+
+= 4.1.7 =
+
+* Fix Bildimport
+* PhP8.2 Fixes
+* Neue Links und Seite
 
 = 4.1.6 =
 

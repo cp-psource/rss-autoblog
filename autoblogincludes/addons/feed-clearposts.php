@@ -50,7 +50,7 @@ class AutoBlog_Feed_ClearPosts extends Autoblog_Addon
         ?>
         <script type="text/javascript">
             jQuery(function ($) {
-                $('#autoblog_clear_posts').click(function () {
+                $(document).on('click', '#autoblog_clear_posts', function () {
                     var feed_id = $(this).data('id');
                     var that = $(this);
                     $.ajax({
@@ -67,9 +67,9 @@ class AutoBlog_Feed_ClearPosts extends Autoblog_Addon
                         success: function (data) {
                             that.removeAttr('disabled').text('Clean up').after(' <strong>' + data.message + '</strong>');
                         }
-                    })
-                })
-            })
+                    });
+                });
+            })            
         </script>
     <?php
     }

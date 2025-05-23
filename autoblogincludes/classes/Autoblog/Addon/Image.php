@@ -125,7 +125,9 @@ class Autoblog_Addon_Image extends Autoblog_Addon {
 		}
 
 		//in some case, the url will have GET param, try the last with removing the param
-		$url = strtok( $url, '?' );
+		if (!empty($url)) {
+			$url = strtok($url, '?');
+		}
 		$ext = strtolower( pathinfo( $url, PATHINFO_EXTENSION ) );
 		if ( in_array( $ext, array(
 			'jpg',

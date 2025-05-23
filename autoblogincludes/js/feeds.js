@@ -1,83 +1,88 @@
-jQuery(function($) {
-    $(document).ready(function() {
-        var file_frame;
+(function($) {
+	$(document).ready(function() {
+		var file_frame;
 
-        $('select.blog').on('change', function() {
-            var blog = $(this).val();
-            var postbox = $(this).closest('div.postbox');
+		$('select.blog').on('change', function() {
+			var blog = $(this).val();
 
-            if (blog != '') {
-                postbox.find('select.author, select.altauthor, select.cat').html('<option value="">Loading...</option>');
+			if (blog != '') {
+				var postbox = $(this).parents('div.postbox');
 
-                $.getJSON(ajaxurl, { action: 'autoblog-get-blog-authors', id: blog, nocache: new Date().getTime() }, function(ret) {
-                    var authorOptions = "";
-                    $.each(ret.data, function(index, author) {
-                        authorOptions += `<option value="${author.user_id.toLowerCase()}">${author.user_login}</option>`;
-                    });
-                    postbox.find('select.altauthor').html(authorOptions);
-                    authorOptions = '<option value="0">Use feed author</option>' + authorOptions;
-                    postbox.find('select.author').html(authorOptions);
-                });
+				postbox.find('select.author').html('<option value="">Loading...</option>');
+				postbox.find('select.altauthor').html('<option value="">Loading...</option>');
+				postbox.find('select.cat').html('<option value="">Loading...</option>');
 
-                $.getJSON(ajaxurl, { action: 'autoblog-get-blog-categories', id: blog, nocache: new Date().getTime() }, function(ret) {
-                    var catOptions = "";
-                    $.each(ret.data, function(index, cat) {
-                        catOptions += `<option value="${cat.term_id.toLowerCase()}">${cat.name}</option>`;
-                    });
-                    postbox.find('select.cat').html(catOptions);
-                });
-            }
-        });
+				$.getJSON(ajaxurl, {action: 'autoblog-get-blog-authors', id: blog, nocache: new Date().getTime()}, function(ret) {
+					var opts = "";
+					for (var author in ret.data) {
+						opts += "<option value='" + ret.data[author].user_id.toLowerCase() + "'>" + ret.data[author].user_login + "</option>";
+					}
+					postbox.find('select.altauthor').html(opts);
+					opts = '<option value="0">Use feed author</option>' + opts;
+					postbox.find('select.author').html(opts);
+				});
 
-        $('#abtble_posttype').on('change', function() {
-            var post_type = $(this).val();
+				$.getJSON(ajaxurl, {action: 'autoblog-get-blog-categories', id: blog, nocache: new Date().getTime()}, function(ret) {
+					var opts = "";
+					for (var cat in ret.data) {
+						opts += "<option value='" + ret.data[cat].term_id.toLowerCase() + "'>" + ret.data[cat].name + "</option>";
+					}
+					postbox.find('select.cat').html(opts);
+				});
+			}
+		});
 
-            $('#abtble_feedcatsare option').each(function() {
-                var $this = $(this);
-                var objects = $this.data('objects');
+		$('#abtble_posttype').on('change', function() {
+			var post_type = $(this).val();
 
-                if (objects) {
-                    if (objects.split(',').indexOf(post_type) < 0) {
-                        $this.prop('disabled', true);
-                    } else {
-                        $this.prop('disabled', false);
-                    }
-                }
-            });
+			$('#abtble_feedcatsare option').each(function() {
+				var $this = $(this),
+					objects = $this.attr('data-objects');
 
-            $("#abtble_feedcatsare").val($('#abtble_feedcatsare option[value]:not(:disabled):first').val());
-        });
+				if (objects) {
+					if ( objects.split(',').indexOf(post_type) < 0 ) {
+						$this.attr('disabled', 'disabled');
+					} else {
+						$this.removeAttr('disabled');
+					}
+				}
+			});
 
-        $('#featureddefault_select').on('click', function(e) {
-            e.preventDefault();
+			$("#abtble_feedcatsare").val($('#abtble_feedcatsare option[value]:not(:disabled):first').val());
+		});
 
-            if (file_frame) {
-                file_frame.open();
-                return;
-            }
+		$('#featureddefault_select').on('click', function(e) {
+			var $this = $(this);
 
-            file_frame = wp.media.frames.file_frame = wp.media({
-                title: autoblog.fileframe.title,
-                button: { text: autoblog.fileframe.button },
-                multiple: false
-            });
+			e.preventDefault();
 
-            file_frame.on('select', function() {
-                var attachment = file_frame.state().get('selection').first().toJSON();
-                var td = $(this).closest('td');
+			if (file_frame) {
+				file_frame.open();
+				return;
+			}
 
-                td.find('input').val(attachment.id);
-                td.find('img').attr('src', attachment.url);
-            });
+			file_frame = wp.media.frames.file_frame = wp.media({
+				title: autoblog.fileframe.title,
+				button: {text: autoblog.fileframe.button},
+				multiple: false
+			});
 
-            file_frame.open();
-        });
+			file_frame.on('select', function() {
+				var attachment = file_frame.state().get('selection').first().toJSON(),
+					td = $this.parents('td');
 
-        $('#featureddefault_delete').on('click', function() {
-            var td = $(this).closest('td');
+				td.find('input').val(attachment.id);
+				td.find('img').attr('src', attachment.url);
+			});
 
-            td.find('input').val('');
-            td.find('img').attr('src', '');
-        });
-    });
-});
+			file_frame.open();
+		});
+
+		$('#featureddefault_delete').on('click', function() {
+			var td = $(this).parents('td');
+
+			td.find('input').val('');
+			td.find('img').attr('src', '');
+		});
+	});
+})(jQuery);
