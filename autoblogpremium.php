@@ -1,17 +1,17 @@
 <?php
 /*
-Plugin Name: RSS AutoBlog
+Plugin Name: PS RSS AutoBlog
 Version: 4.1.6
-Plugin URI: https://n3rds.work/piestingtal-source-project/rss-autoblog/
+Plugin URI: https://cp-psource.github.io/rss-autoblog/
 Description: Dieses Plugin veröffentlicht automatisch Inhalte aus RSS-Feeds in verschiedenen Blogs auf Deiner WordPress Seite oder in Deiner Multisite...
-Author: WMS N@W
-Author URI: https://n3rds.work
+Author: DerNerd
+Author URI: https://nerdservice.eimen.net/
 Text Domain: autoblogtext
 Domain Path: /autoblogincludes/languages/
 */
 
 // +----------------------------------------------------------------------+
-// | Copyright 2017-2023 WMS N@W (https://n3rds.work)                                |
+// | Copyright 2017-2025 PSOURCE (https://github.com/cp-psource)                                |
 // +----------------------------------------------------------------------+
 // | This program is free software; you can redistribute it and/or modify |
 // | it under the terms of the GNU General Public License, version 2, as  |
@@ -28,13 +28,18 @@ Domain Path: /autoblogincludes/languages/
 // | MA 02110-1301 USA                                                    |
 // +----------------------------------------------------------------------+
 
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=rss-autoblog', 
-	__FILE__, 
-	'rss-autoblog' 
+
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+ 
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/cp-psource/rss-autoblog',
+	__FILE__,
+	'rss-autoblog'
 );
+ 
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
 
 
 // prevent reloading the plugin, if it has been already loaded
